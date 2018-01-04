@@ -1,0 +1,6 @@
+/* When we get bug like if the click is happen more than layouts opening in the application */
+private  long mtime=0; // we need to declare globally
+
+if(SystemClock.elapsedRealtime()-mtime <1000){
+            return;
+        }
